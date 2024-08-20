@@ -41,6 +41,7 @@
             padding-top: 75px;
             /* border-bottom: double; */
             padding-bottom: 75px;
+
         }
 
         ul.timeline-3 {
@@ -103,7 +104,7 @@
             <div class="collapse navbar-collapse justify-content-center " id="navbarNavDropdown">
                 <ul class="navbar-nav text-center bg-light p-2 rounded-1">
                     <li class="nav-item ">
-                        <a class="nav-link p-2 active bg-dark text-white " aria-current="page" href="#">Home</a>
+                        <a class="nav-link p-2 active bg-dark text-white " aria-current="page" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link p-2" href="#about">About</a>
@@ -123,7 +124,7 @@
             </div>
         </div>
     </nav>
-    <header>
+    <header id="home">
         <div class="container col-xxl-8 px-4 py-5">
             <div class="row flex-lg-row align-items-center g-5 py-5">
                 <div class="col-lg-6">
@@ -135,8 +136,8 @@
                     most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid
                     system, extensive prebuilt components, and powerful JavaScript plugins.</p> -->
                     <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                        <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Journey</button>
-                        <button type="button" class="btn btn-outline-dark btn-lg px-4">CV</button>
+                        <a href="#journey" class="btn btn-primary rounded-1 btn-lg px-4 me-md-2">Journey</a>
+                        <button type="button" class="btn btn-outline-dark rounded-1 btn-lg px-4">CV</button>
                     </div>
                 </div>
 
@@ -155,26 +156,31 @@
         <!-- <h5 class="fst-italic text-center mt-0">High School to Corporate World Journey,</h5> -->
         <div class="container mt-5">
             <div class="row text-center text-md-left">
-                <div class="col-md-3">
-                    <img src="" alt="Numan Photo" class="img-thumbnail mb-4">
+                <div class="col-md-3 col-sm-6">
+                    <img src="./assets/images/image.png" alt="Numan Photo" loading="lazy"
+                        class="img-thumbnail mx-auto mb-4">
                 </div>
                 <div class="pl-md-4 col-md-9 text-start">
                     <h6 class="display-4">Numan</h6>
                     <p class="">Full Stack Python Developer</p>
-                    <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, pariatur,
-                        aperiam aut autem
-                        voluptas odit. Odio ducimus delectus totam sed aliquam sequi praesentium mollitia, illum
-                        repudiandae quidem quod, magni magnam.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, eius, nam. Quo praesentium qui
-                        temporibus voluptatum, facilis aliquid eligendi fugiat beatae neque inventore non. Laborum
-                        repellendus consequatur ullam voluptatum asperiores.</p>
-                    <button class="btn btn-outline-dark rounded mt-3 rounded-1">LinkedIn</button>
+                    <p class="">I am Mohd Numan working as Full Stack Python at Ekak Innovation past 2.5+ years <br>
+                        I called my self as a problem solver and passionate about coding and creative work
+                    </p>
+                    <!-- <p></p> -->
+                    <p>2-Year Python Powerhouse: Flask, FASTAPI , Django, & PostgreSQL Mastermind
+                        Building dynamic web apps with passion and precision. I bring 2 years of Python expertise,
+                        juggling Flask and Django frameworks like a pro. PostgreSQL databases? No sweat, I speak their
+                        language fluently. Eager to tackle challenging projects and contribute innovative solutions.
+                        Let's code together!</p>
+                    <a href="https://www.linkedin.com/in/one-numan/" target="_blank"
+                        class="btn btn-outline-dark rounded mt-3 rounded-1"> <i class="bi bi-linkedin"></i>
+                        LinkedIn</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="section bg-dark text-white pt-2 pb-5">
+    <section class="section bg-dark text-white  pb-5" id="journey">
         <p class="pageSection pt-4 pb-2">Journey</p>
         <p class="subSectionText text-center ">High School to Corporate World Journey</p>
 
@@ -397,7 +403,8 @@
                             <h6 class="text-muted mb-5 text-center">Flask, Django , Fast API</h6>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the card's content.</p>
-                            <a href="#" class="btn btn-outline-dark rounded-circle m-1"><i class="bi bi-github"></i></a>
+                            <a href="https://github.com/one-numan" target="_blank"
+                                class="btn btn-outline-dark rounded-circle m-1"><i class="bi bi-github"></i></a>
 
                             <a href="#" class="btn btn-outline-dark rounded-circle float-end m-1"><i
                                     class="bi bi-3-circle-fill"></i></a>
@@ -421,7 +428,8 @@
                             <h6 class="text-muted mb-5 text-center">HTML, CSS, Vanila JS</h6>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the card's content.</p>
-                            <a href="#" class="btn btn-outline-dark rounded-circle m-1"><i class="bi bi-github"></i></a>
+                            <a href="https://github.com/one-numan" target="_blank"
+                                class="btn btn-outline-dark rounded-circle m-1"><i class="bi bi-github"></i></a>
 
                             <a href="#" class="btn btn-outline-dark rounded-circle float-end m-1"><i
                                     class="bi bi-3-circle-fill"></i></a>
@@ -444,9 +452,11 @@
                             <h6 class="text-muted mb-5 text-center">Kotlin</h6>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the card's content.</p>
-                            <a href="#" class="btn btn-outline-dark rounded-circle m-1"><i class="bi bi-github"></i></a>
+                            <a href="https://github.com/one-numan" target="_blank"
+                                class="btn btn-outline-dark rounded-circle m-1"><i class="bi bi-github"></i></a>
 
-                            <a href="#" class="btn btn-outline-dark rounded-circle float-end m-1"><i
+                            <a href="https://play.google.com/store/apps/details?id=com.all_qr_generator.qr_ganerator_android_app"
+                                target="_blank" class="btn btn-outline-dark rounded-circle float-end m-1"><i
                                     class="bi bi-google-play"></i></a>
                         </div>
                     </div>
@@ -464,7 +474,8 @@
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the card's content.</p>
 
-                            <a href="#" class="btn btn-outline-dark rounded-circle m-1"><i class="bi bi-github"></i></a>
+                            <a href="https://github.com/one-numan" target="_blank"
+                                class="btn btn-outline-dark rounded-circle m-1"><i class="bi bi-github"></i></a>
                         </div>
                     </div>
                 </div>
@@ -495,10 +506,10 @@
                                 Whatsapp, UPI minimum in 3 click App Publish in PlayStore</p>
 
                             <a href="https://play.google.com/store/apps/details?id=com.all_qr_generator.qr_ganerator_android_app"
-                                class="float-start btn btn-secondary rounded-circle m-1"><i
+                                target="_blank" class="float-start btn btn-secondary rounded-circle m-1"><i
                                     class="bi bi-google-play"></i></a>
-                            <a href="#" class="float-end btn btn-secondary rounded-circle m-1"><i
-                                    class="bi bi-github"></i></a>
+                            <a href="https://github.com/one-numan" target="_blank"
+                                class="float-end btn btn-secondary rounded-circle m-1"><i class="bi bi-github"></i></a>
                         </div>
                     </div>
                 </div>
@@ -520,8 +531,8 @@
                             <a href="https://play.google.com/store/apps/details?id=com.all_qr_generator.qr_ganerator_android_app"
                                 class="float-start btn btn-secondary rounded-circle m-1"><i
                                     class="bi bi-rocket"></i></a>
-                            <a href="#" class="float-end btn btn-secondary rounded-circle m-1"><i
-                                    class="bi bi-github"></i></a>
+                            <a href="https://github.com/one-numan" target="_blank"
+                                class="float-end btn btn-secondary rounded-circle m-1"><i class="bi bi-github"></i></a>
                         </div>
                     </div>
                 </div>
@@ -543,8 +554,8 @@
                             <a href="https://play.google.com/store/apps/details?id=com.all_qr_generator.qr_ganerator_android_app"
                                 class="float-start btn btn-secondary rounded-circle m-1"><i
                                     class="bi bi-rocket"></i></a>
-                            <a href="#" class="float-end btn btn-secondary rounded-circle m-1"><i
-                                    class="bi bi-github"></i></a>
+                            <a href="https://github.com/one-numan" target="_blank"
+                                class="float-end btn btn-secondary rounded-circle m-1"><i class="bi bi-github"></i></a>
                         </div>
                     </div>
                 </div>
@@ -567,8 +578,8 @@
                             <a href="https://play.google.com/store/apps/details?id=com.all_qr_generator.qr_ganerator_android_app"
                                 class="float-start btn btn-secondary rounded-circle m-1"><i
                                     class="bi bi-rocket"></i></a>
-                            <a href="#" class="float-end btn btn-secondary rounded-circle m-1"><i
-                                    class="bi bi-github"></i></a>
+                            <a href="https://github.com/one-numan" target="_blank"
+                                class="float-end btn btn-secondary rounded-circle m-1"><i class="bi bi-github"></i></a>
                         </div>
                     </div>
                 </div>
@@ -581,29 +592,22 @@
     <div class="container-fluid  bg-dark text-white">
 
         <footer class="py-3">
-
-
             <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-white">About</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Skills</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Project</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Resume</a></li>
-            </ul>
-            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-white"><i class="bi h4 bi-github"></i></a>
+                <li class="nav-item" title="Github : One Numan"><a href="https://github.com/one-numan" target="_blank"
+                        class="nav-link px-2 text-white"><i class="bi h4 bi-github"></i></a>
                 </li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-white"><i class="bi h4 bi-linkedin"></i></a>
+                <li class="nav-item" title="LinkedIn : One Numan"><a href="https://www.linkedin.com/in/one-numan/"
+                        target="_blank" class="nav-link px-2 text-white"><i class="bi h4 bi-linkedin"></i></a>
                 </li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-white"><i
+                <li class="nav-item" title="Contact : One Numan"><a href="#" class="nav-link px-2 text-white"><i
                             class="bi h4 bi-chat-square-quote"></i></a></li>
 
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-white"><i
+                <li class="nav-item" title="CV : One Numan"><a href="#" class="nav-link px-2 text-white"><i
                             class="bi h4 bi-file-earmark-person-fill"></i></a></li>
 
             </ul>
             <ul class="nav justify-content-center border-bottom pb-2 mb-3">
-                <p class="float-end text-white">© 2023 - 24 &nbsp; One Numan</p>
+                <p class="float-end text-white" title="CopyRights Issue">© 2023 - 24 &nbsp; One Numan</p>
             </ul>
         </footer>
     </div>
